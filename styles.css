@@ -84,9 +84,14 @@ img {
   gap: 2em;
 }
 
+.col-two .title {
+  font-weight: var(--fs-extra-bold);
+  font-size: 3rem;
+}
+
 .col-two .intro-text {
   width: 70%;
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
 }
 
 .col-two .featured-card-text > .read-more {
@@ -96,6 +101,7 @@ img {
   padding: 1em 3em;
   font-size: calc(1.5rem - 10px);
   text-transform: uppercase;
+  cursor: pointer;
   font-weight: var(--fs-bold);
 }
 
@@ -107,4 +113,8 @@ img {
 
 .act-as-footer > .card {
   display: flex;
+}
+
+.attribution * a {
+ text-decoration: none;
 }
